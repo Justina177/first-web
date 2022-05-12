@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+/*
+.navbar-brand{
+    
+} */
+
+.navbar-brand img{
+    width: 150px;
+
+}
+.navbar-links{
+    height : 30px;
+}
+
+.links{ 
+    margin-right: 20px;
+    font-size: 16px;
+    color : rgb(43, 41, 41);
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .6s;
+
+}
+.link:hover{
+    color: rgb(245, 179, 56);
+}
+ .active {
+     color: rgb(245, 179, 56);
+     border-bottom: 3px solid rgb(245, 179, 56);
+ }
+
+.banner img{
+    width:100%;
+    height: 70vh;
+    border-radius: 10px;
+    }
+/* card area style */
+ .card-area{
+        
+        display: flex;
+        justify-content: space-around;
+        padding: 150px 0px;
+    }
+    
+    .card{
+        border: 1px solid lightblue;
+        max-width: 27%;
+        padding: 60px 10px;
+        border-radius: 50%
+    }
+    .card h2,
+    
+    .card p{
+        text-align: center;
+    }
+    .card p{
+        color: rgb(101, 94, 101)
+    }
+        
+    .card h2{
+            color: rbg(43, 0, 255);
+    }
+        
+    /*dialog area style */   
+    .dialog {
+        background-image: linear-gradient(top left, #ffcc00, 
+        #ca8300);
+        display: flex;
+        justify-content: space-envenly;
+        padding: 100px;
+    }
+    .dialog-text {
+        border:2px solid red;
+        width:550px; 
+        /* semi-colon expected at-rule or selector expected */
+    
+    } 
+    .dialog text h2 {
+        font-size :30px;
+        margin-bottom: 15px;
+    }
+    .dialog_text p{
+        font-size: 17px;
+        text-align: justify;
+    }
+    .dialog-img
+    {
+        width: 450px;
+    }
+    .dialog-img img {
+         width:150%;
+    }
+    .footer{
+        background-color: blue;
+        color: white;
+        text-align: center;
+        background-image: radial-gradient(red,blue,orange);
+    }
+        
+
+    
