@@ -55,6 +55,7 @@ nav {
     .card{
         border: 1px solid lightblue;
         max-width: 27%;
+    
         padding: 60px 10px;
         border-radius: 50%
     }
@@ -98,7 +99,7 @@ nav {
         width: 450px;
     }
     .dialog-img img {
-         width:150%;
+         width:100%;
     }
     .footer{
         background-color: blue;
